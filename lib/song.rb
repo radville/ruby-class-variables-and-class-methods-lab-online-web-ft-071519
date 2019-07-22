@@ -18,7 +18,7 @@ class Song
   end
   
   def self.genres
-    @@genres #make only unique
+    @@genres.uniq
   end
   
   def self.artists
