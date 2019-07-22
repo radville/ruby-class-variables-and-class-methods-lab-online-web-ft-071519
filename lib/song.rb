@@ -16,7 +16,7 @@ class Song
   end
   
   def self.genres
-    @@genres
+    @@genres #make only unique
   end
 
 end
